@@ -1,0 +1,32 @@
+.footer {
+   background-color: $primary;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 2rem 5rem;
+   color: $white;
+   @media screen and (max-width: $brakpoint) {
+      flex-direction: column;
+      gap: 2rem;
+   }
+   .logo {
+      font-family: "ArbFONTS", sans-serif;
+      font-size: 35px;
+      text-align: center;
+      font-weight: 300;
+   }
+   .social-links {
+      font-size: 1.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.6rem;
+      .icon {
+         cursor: pointer;
+         transition: all 0.65s cubic-bezier(0.25, 1, 0.5, 1);
+      }
+      .icon:hover {
+         color: $black;
+      }
+   }
+}

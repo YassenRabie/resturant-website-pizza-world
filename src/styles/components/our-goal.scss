@@ -1,0 +1,14 @@
+.our-goal {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: $white;
+   flex-direction: column;
+   h2 {
+      font-weight: 600;
+   }
+   p {
+      font-size: 20px;
+      font-weight: 200;
+   }
+}

@@ -1,0 +1,9 @@
+.featured-meals {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+   @media screen and (max-width: $brakpoint) {
+      grid-template-columns: 1fr;
+   }
+}

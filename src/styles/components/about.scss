@@ -1,0 +1,29 @@
+.about {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   .about-info {
+      color: $white;
+      padding: 1rem;
+      p {
+         font-size: 22px;
+         font-weight: 200;
+      }
+   }
+   .about-image {
+      overflow: hidden;
+      grid-row-start: 2;
+      grid-column-start: 2;
+      height: 0;
+      padding-top: 50%;
+      background-size: cover;
+   }
+   @media screen and (max-width: $brakpoint) {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      .about-info {
+         padding: 0;
+      }
+   }
+}

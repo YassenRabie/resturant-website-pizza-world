@@ -1,0 +1,38 @@
+.btn {
+   background-color: $primary;
+   border-radius: 2.5px;
+   color: $white;
+   display: flex;
+   font-size: 0.9em;
+   overflow: hidden;
+   text-decoration: none;
+   margin: 1.5rem 0;
+   width: 10rem;
+   justify-content: center;
+   align-items: center;
+   &:hover .icon {
+      // width: 100%;
+   }
+   &:hover .text-container {
+      margin-left: -100%;
+   }
+   .icon {
+      background-color: $white;
+      color: $primary;
+      width: auto;
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.65s cubic-bezier(0.25, 1, 0.5, 1);
+      flex: 1;
+   }
+   .text-container {
+      text-align: center;
+      font-weight: 600;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.65s cubic-bezier(0.25, 1, 0.5, 1);
+   }
+}

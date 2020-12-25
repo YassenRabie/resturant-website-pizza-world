@@ -1,0 +1,55 @@
+body,
+html {
+   background-color: $black;
+   font-family: "Source Sans Pro", sans-serif;
+}
+
+.disable-scroll {
+   height: 100vh;
+   overflow-y: hidden;
+   padding-right: 16px;
+}
+
+.container {
+   width: 70%;
+   margin: auto;
+   @media screen and (max-width: $brakpoint) {
+      width: 80%;
+   }
+}
+
+.vert-margin {
+   margin-top: 4rem;
+   margin-bottom: 4rem;
+}
+
+.vert-padding {
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+}
+
+h1 {
+   color: $white;
+   font-weight: 600;
+   padding-bottom: 2rem;
+}
+
+h1 > span {
+   color: $primary;
+   font-weight: 700;
+}
+
+a {
+   text-decoration: none;
+}
+
+.center {
+   text-align: center;
+}
+
+.subtitle {
+   border-bottom: 3px solid $primary;
+   border-radius: 3px;
+   padding: 0.5rem 0;
+   font-size: 30px;
+}

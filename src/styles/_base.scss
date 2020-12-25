@@ -1,0 +1,26 @@
+@font-face {
+   font-family: "ArbFONTS";
+   src: url(../fonts/ArbFONTS.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+@import "./normalize";
+@import "./variables";
+@import "./general";
+@import "./components/layout.scss";
+@import "./components/hamburger-menu.scss";
+@import "./components/intro-header.scss";
+@import "./components/meal-card.scss";
+@import "./components/featured-meals.scss";
+@import "./components/about.scss";
+@import "./components/button.scss";
+@import "./components/customers.scss";
+@import "./components/footer.scss";
+@import "./components/site-intro.scss";
+@import "./components/scroll-down.scss";
+@import "./components/subpage-header.scss";
+@import "./components/meal-item.scss";
+@import "./components/back-to-home.scss";
+@import "./components/our-goal.scss";
+@import "./components/slide-show.scss";

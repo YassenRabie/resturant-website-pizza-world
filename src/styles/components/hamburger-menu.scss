@@ -1,0 +1,55 @@
+.hamburger-menu {
+   position: fixed;
+   top: 0;
+   right: 0;
+   z-index: 100;
+   width: 100vw;
+   height: 100vh;
+   pointer-events: none;
+   .hamburger-icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 102;
+      width: 70px;
+      stroke: $primary;
+      cursor: pointer;
+      pointer-events: all;
+   }
+   .menu-container {
+      background-color: $white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 101;
+      width: 70px;
+      height: 70px;
+      display: flex;
+      gap: 20vw;
+      justify-content: center;
+      align-items: center;
+      pointer-events: all;
+      .links {
+         display: flex;
+         flex-direction: column;
+         gap: 1rem;
+      }
+      .link-contaienr {
+         height: 0;
+         overflow: hidden;
+         font-size: 55px;
+         color: $black;
+         font-weight: 600;
+         .link {
+            color: $black;
+         }
+         .link:hover {
+            cursor: pointer;
+            color: $primary;
+         }
+      }
+      .triangle {
+         width: 20vw;
+      }
+   }
+}
