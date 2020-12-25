@@ -3,9 +3,9 @@
 Live Demo: https://yassen-pizza-world.netlify.app/
 
 ## UI Design
-![Design preview](./design/1.jpg)
-![Design preview](./design/2.jpg)
-![Design preview](./design/3.jpg)
+![Design preview](./design/1.JPG)
+![Design preview](./design/2.JPG)
+![Design preview](./design/3.JPG)
 
 ## Technology used:
 - Sass
