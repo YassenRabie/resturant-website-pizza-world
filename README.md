@@ -14,7 +14,7 @@ Live Demo: https://yassen-pizza-world.netlify.app/
 - gsap (GreenSock Animation)
 
 ## How to use:
-To run the app use on port 8000:
+To run the app on port 8000:
 `gatsby develop`
 
 To build the app use: 
